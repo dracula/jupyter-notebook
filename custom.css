@@ -1,6 +1,6 @@
-/*This file contains any manual css for this page that needs to override the global styles.
-This is only required when different pages style the same element differently. This is just
-a hack to deal with our current css styles and no new styling should be added in this file.*/
+/*This file contains any manual css for jupyter notebook.
+There might be some foo colors or definitions, I tried to make this theme to have all
+the elements in the default jupyter layout.*/
 
 div#notebook {
  font-family: sans-serif;
