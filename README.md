@@ -1,8 +1,8 @@
-# Dracula for [Foobar](https://foobar.com)
+# Dracula for [Jupyter Notebook](https://jupyter.org/)
 
-> A dark theme for [Foobar](https://foobar.com).
+> A dark theme for Jupyter Notebook.
 
-![Screenshot](./screenshot.png)
+![Screenshot](./Jupyter.png)
 
 ## Install
 
