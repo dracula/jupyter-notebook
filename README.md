@@ -2,7 +2,7 @@
 
 > A dark theme for Jupyter Notebook.
 
-![Screenshot](./Jupyter.png)
+![Screenshot](./screenshot-jupyter.png)
 
 ## Install
 
@@ -14,7 +14,7 @@ This theme is maintained by the following person(s) and a bunch of [awesome cont
 
 | [![Zeno Rocha](https://github.com/zenorocha.png?size=100)](https://github.com/zenorocha) |
 | ---------------------------------------------------------------------------------------- |
-| [Zeno Rocha](https://github.com/zenorocha)                                               |
+| [ALexis Andrés](https://github.com/lex-andr)                                               |
 
 ## Community
 
