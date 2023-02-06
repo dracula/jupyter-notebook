@@ -1,6 +1,6 @@
-/*This file contains any manual css for jupyter notebook.
-There might be some foo colors or definitions, I tried to make this theme to have all
-the elements in the default jupyter layout.*/
+/*This file contains any manual css for this page that needs to override the global styles.
+This is only required when different pages style the same element differently. This is just
+a hack to deal with our current css styles and no new styling should be added in this file.*/
 
 div#notebook {
  font-family: sans-serif;
@@ -1899,14 +1899,14 @@ div.cell.text_cell.rendered .prompt {
 }
 div.cell.text_cell.rendered.selected .prompt {
  top: 0;
- border-left: 4px solid #bd93f9;
+ border-left: 4px solid #8be9fd;
  border-right: 2px solid transparent;
 }
 div.text_cell.unrendered.selected .prompt,
 div.text_cell.rendered.selected .prompt {
  top: 0;
  background: transparent;
- border-left: 4px solid #8be9fd;
+ border-left: 4px solid #ff5555;
  border-right: 2px solid transparent;
 }
 div.rendered_html code {
@@ -3153,7 +3153,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 div.cell.text_cell .cm-s-default .cm-header {
  font-family: sans-serif;
  font-weight: normal;
- color: #8be9fd !important;
+ color: #ff5555 !important;
  margin-top: 0.3em !important;
  margin-bottom: 0.3em !important;
 }
