@@ -823,8 +823,8 @@ i.fa.fa-icon {
  padding: 0px;
  text-align: left;
  border: none;
- background-color: #000000;
- background: #000000;
+ background-color: transparent;
+ background: transparent;
  line-height: 1;
 }
 .dropdown-menu:hover {
@@ -849,7 +849,7 @@ i.fa.fa-icon {
 }
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
- color: #bbc2e0;
+ color:  #282a36;
  background-color: #282a36;
  background: #282a36;
  border-color: #282a36;
@@ -876,8 +876,9 @@ i.fa.fa-icon {
  font-family: sans-serif;
  font-size: 10.0pt;
  font-weight: normal;
- color: #8be9fd;
+ color:  #282a36;
  padding: none;
+ background: transparent;
  display: block;
  clear: both;
  white-space: nowrap;
@@ -920,7 +921,7 @@ div.kse-dropdown > .dropdown-menu,
 .btn-default:hover,
 .open > .dropdown-toggle.btn-default:hover,
 .open > .dropdown-toggle.btn:hover {
- color: #8be9fd;
+ color: #bd93f9;
  border: 2px solid #2a2e39;
  background-color: #2a2e39;
  background: #2a2e39;
@@ -950,7 +951,7 @@ div.kse-dropdown > .dropdown-menu,
 .open > .dropdown-toggle.btn-default:focus,
 .open > .dropdown-toggle.btn-default.hover,
 .open > .dropdown-toggle.btn-default.focus {
- color: #8be9fd;
+ color: #bd93f9;
  border: 2px solid #2a2e39;
  background-color: #2a2e39 !important;
  background: #2a2e39 !important;
@@ -1142,6 +1143,7 @@ button.close {
 .dynamic-buttons {
  padding-top: 0px;
  display: inline-block;
+ background: transparent;
 }
 .close {
  color: #dc6972;
@@ -2588,8 +2590,7 @@ video {
  margin: 0px;
 }
 .cmd-palette form {
- background: #293547;
- background-color: #293547;
+ background: #000000;
 }
 .typeahead-field input:last-child,
 .typeahead-hint {
@@ -2613,7 +2614,7 @@ video {
 body > div.modal.cmd-palette.typeahead-field {
  display: table;
  border-collapse: separate;
- background-color: #2b3850;
+ background-color: #000000;
 }
 .typeahead-container button {
  font-family: sans-serif;
@@ -2675,11 +2676,13 @@ body > div.modal.cmd-palette.typeahead-field {
  content: "(command)";
  padding-right: 3px;
  color: #8be9fd;
+ background: transparent;
 }
 .edit-shortcut:before {
  content: "(edit)";
  padding-right: 3px;
  color: #8be9fd;
+ background: transparent;
 }
 ul.typeahead-list i {
  margin-left: 1px;
@@ -2697,8 +2700,8 @@ ul.typeahead-list {
 div.input.typeahead-hint,
 input.typeahead-hint,
 body > div.modal.cmd-palette.in > div > div > div > form > div > div.typeahead-field > span.typeahead-query > input.typeahead-hint {
- color: #8be9fd !important;
- background-color: transparent;
+ color: #ffffff !important;
+ background-color: #000000;
  padding: 3px 10px;
 }
 .typeahead-dropdown > li > a,
@@ -2714,6 +2717,7 @@ body > div.modal.cmd-palette.in > div > div > div > form > div > div.typeahead-f
 body > div.modal.cmd-palette.in > div {
  min-width: 750px;
  margin: 150px auto;
+ background: #000000;
 }
 .typeahead-container strong {
  font-weight: bolder;
@@ -3280,5 +3284,4 @@ span.save_widget span.filename:hover {
         }
     });
 </script>
-
 
