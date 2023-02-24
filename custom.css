@@ -2109,16 +2109,18 @@ div#_vivaldi-spatnav-focus-indicator._vivaldi-spatnav-focus-indicator {
 .rendered_html thead {
  font-family: sans-serif !important;
  font-size: 10.3pt !important;
- background: #2e3642;
- color: #d4d8ec;
- border-bottom: 1px solid #2e3642;
+ background: #44475a;
+ color: #ff79c6;
+ border-bottom: 1px solid #44475a;
  vertical-align: bottom;
 }
 .rendered_html tbody tr:nth-child(odd) {
- background: #414b5e;
+ color: #6272a4;
+ background : #0b0f12;
 }
 .rendered_html tbody tr {
- background: #3b4455;
+ background: #282a36;
+ color: #6272a4;
 }
 .rendered_html tbody tr:hover:nth-child(odd) {
  background: #3f495b;
