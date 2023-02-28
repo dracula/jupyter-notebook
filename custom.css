@@ -959,15 +959,16 @@ div.kse-dropdown > .dropdown-menu,
  box-shadow: none !important;
  border-radius: 3px;
 }
+/* Changing the color for the save button */
 .btn-default:active:hover,
 .btn-default.active:hover,
 .btn-default:active:focus,
 .btn-default.active:focus,
 .btn-default:active.focus,
 .btn-default.active.focus {
- color: #8adc4b !important;
+ color: #8be9fd !important;
  background-color: #303542;
- border-color: #546745 !important;
+ border-color: #6272a4 !important;
  transition: 2000ms ease;
 }
 .btn:focus,
@@ -978,12 +979,12 @@ div.kse-dropdown > .dropdown-menu,
 .btn.active,
 .btn:active.focus,
 .btn.active.focus {
- color: #8adc4b !important;
+ color: #8be9fd !important;
  outline: none !important;
  outline-width: 0px !important;
- background: #546745 !important;
- background-color: #546745 !important;
- border-color: #546745 !important;
+ background: #6272a4 !important;
+ background-color: #6272a4 !important;
+ border-color:#6272a4 !important;
  transition: 200ms ease !important;
 }
 .item_buttons > .btn,
