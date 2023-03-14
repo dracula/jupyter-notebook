@@ -14,9 +14,10 @@ body,
 div.body {
  font-family: sans-serif;
  font-size: 10pt;
- color: #899ab8;
- background: #0b0f12;
- /* Both above change the color of the HOME background */
+ /* Changes the text color of top messages in HOME screen */
+ color: #ff79c6;
+ /* Changes the color of the HOME background */
+ background: #282a36;
  -webkit-font-smoothing: antialiased !important;
 }
 body.notebook_app {
@@ -135,7 +136,7 @@ div.running_list_info.toolbar_info {
  vertical-align: text-top;
 }
 .fa-folder:before {
- color: #bd93f9;
+ color: #88C0D0;
 }
 .fa-arrow-up:before {
  font-size: 12px;
@@ -145,7 +146,7 @@ div.running_list_info.toolbar_info {
 }
 span#last-modified.btn.btn-xs.btn-default.sort-action:hover .fa,
 span#sort-name.btn.btn-xs.btn-default.sort-action:hover .fa {
- color: #8be9fd;
+ color: #D8DEE9;
 }
 .folder_icon:before {
  display: inline-block;
@@ -155,7 +156,7 @@ span#sort-name.btn.btn-xs.btn-default.sort-action:hover .fa {
  -webkit-font-smoothing: antialiased;
  -moz-osx-font-smoothing: grayscale;
  content: "\f07b";
- color: #bd93f9;
+ color: #88C0D0;
 }
 .notebook_icon:before {
  display: inline-block;
@@ -179,7 +180,7 @@ span#sort-name.btn.btn-xs.btn-default.sort-action:hover .fa {
  content: "\f15b";
  position: relative;
  top: 0px;
- color: #899ab8 !important;
+ color: #81A1C1 !important;
 }
 #project_name a {
  display: inline-flex;
@@ -192,7 +193,7 @@ span#sort-name.btn.btn-xs.btn-default.sort-action:hover .fa {
 div#notebook_toolbar div.dynamic-instructions {
  font-family: sans-serif;
  font-size: 11pt;
- color: #8be9fd;
+ color: #ff79c6;
 }
 span#login_widget > .button,
 #logout {
@@ -200,7 +201,7 @@ span#login_widget > .button,
  color: #899ab8;
  background: transparent;
  background-color: transparent;
- border: 2px solid #303542;
+ border: 2px solid #2E3440 ;
  font-weight: normal;
  box-shadow: none;
  text-shadow: none;
@@ -210,7 +211,7 @@ span#login_widget > .button,
 }
 span#login_widget > .button:hover,
 #logout:hover {
- color: #8be9fd;
+ color: #88C0D0;
  background-color: transparent;
  background: transparent;
  border: 2px solid #8be9fd;
@@ -244,7 +245,8 @@ body > #header #header-container {
  -webkit-box-sizing: border-box;
 }
 body > #header {
- background: #0b0f12;
+    /* Changes header of the HOME screen */
+ background: #1b1c27;
  position: relative;
  z-index: 100;
 }
@@ -310,8 +312,8 @@ body > #header {
 #button-select-all.focus,
 #button-select-all:active.focus,
 #button-select-all.active.focus {
- background-color: #303542 !important;
- background: #303542 !important;
+ background-color: #2E3440  !important;
+ background: #2E3440  !important;
 }
 button#tree-selector-btn {
  height: 34px;
@@ -405,14 +407,14 @@ ul#tabs a {
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
- color: #8be9fd;
+ color: #ff79c6;
  background-color: transparent;
  border-color: transparent;
  border-bottom: 2px solid transparent;
 }
 .nav > li.disabled > a,
 .nav > li.disabled > a:hover {
- color: #8be9fd;
+ color: #ff79c6;
 }
 .nav-tabs > li > a:before {
  content: "";
@@ -421,7 +423,7 @@ ul#tabs a {
  height: 2px;
  bottom: -2px;
  left: 0;
- background-color: #8be9fd;
+ background-color: #ff79c6;
  visibility: hidden;
  -webkit-transform: perspective(0)scaleX(0);
  transform: perspective(0)scaleX(0);
@@ -441,7 +443,7 @@ ul#tabs a {
  height: 2px;
  bottom: -2px;
  left: 0;
- background-color: #8be9fd;
+ background-color: #ff79c6;
  visibility: visible;
  -webkit-transform: perspective(1)scaleX(1);
  transform: perspective(1)scaleX(1);
@@ -456,11 +458,12 @@ div#notebook {
  padding-top: 4px;
 }
 .notebook_app {
- background-color: #0b0f12;
+ background-color: #23252e;
 }
 #notebook-container {
  padding: 20pt 10pt;
- background-color: #0b0f12;
+ /* The box containing the input box */
+ background-color: #1b1c27;
  min-height: 0px;
  box-shadow: none;
  width: 75%;
@@ -488,7 +491,7 @@ div#header-container {
 .notebook_app #header,
 .edit_app #header {
  box-shadow: none !important;
- background-color: #0b0f12; /* Upper panel color */
+ background-color: #1b1c27; /* Notebook Upper panel color */
  border-bottom: 2px solid rgba(80,92,133,.22);
 }
 #header,
@@ -519,7 +522,7 @@ div#menubar {
 }
 #menubar .navbar,
 .navbar-default {
- background-color: #282a36; /* bar containing the ipython kernel */
+ background-color: transparent; /* bar containing the ipython kernel */
  margin-bottom: 0px;
  margin-top: 0px;
 }
@@ -537,7 +540,7 @@ p.navbar-text.indicator_area {
 .navbar-default {
  font-family: sans-serif;
  font-size: 10pt;
- background-color: transparent;
+ background-color: #282a36;
  border-color: #282a36;
  line-height: 1.5em;
  padding-bottom: 0px;
@@ -604,7 +607,6 @@ div#notification_notebook.notification_widget.btn.btn-xs.navbar-btn {
  z-index: -500;
  font-size: 9pt;
  background: transparent;
- background-color: transparent;
  margin-right: 3px;
  border: none;
 }
@@ -849,10 +851,10 @@ i.fa.fa-icon {
 }
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
- color:  #282a36;
+    /* colors when pressing the File-Edit-View menu */
+ color:  #f8f8f2;
  background-color: #282a36;
- background: #282a36;
- border-color: #282a36;
+ border-color: #8be9fd;
  transition: 200ms ease;
 }
 .dropdown-menu .divider {
@@ -906,9 +908,9 @@ div.kse-dropdown > .dropdown-menu,
 .btn-default {
  font-family: sans-serif;
  color: #899ab8;
- background: #303542;
- background-color: #303542;
- border: 2px solid #303542;
+ background: #2E3440 ;
+ background-color: #2E3440 ;
+ border: 2px solid #2E3440 ;
  font-weight: normal;
  box-shadow: none;
  text-shadow: none;
@@ -967,7 +969,7 @@ div.kse-dropdown > .dropdown-menu,
 .btn-default:active.focus,
 .btn-default.active.focus {
  color: #8be9fd !important;
- background-color: #303542;
+ background-color: #2E3440 ;
  border-color: #6272a4 !important;
  transition: 2000ms ease;
 }
@@ -1092,7 +1094,7 @@ div.dynamic-buttons > button,
  vertical-align: bottom;
  margin-left: -.5ex;
  display: inline-table;
- border: solid 0px #303542;
+ border: solid 0px #2E3440 ;
  margin-bottom: -1ex;
 }
 .alternate_upload .btn-upload {
@@ -1384,9 +1386,9 @@ select.form-control.select-xs {
  font-size: 92%;
  margin-left: 10px;
  padding: 0px;
- background: #303542 !important;
- background-color: #303542 !important;
- border: 2px solid #303542 !important;
+ background: #2E3440  !important;
+ background-color: #2E3440  !important;
+ border: 2px solid #2E3440  !important;
 }
 .form-control:focus {
  border-color: #ffb86c;
@@ -1692,7 +1694,7 @@ div.output_subarea.output_text {
  font-size: 9pt !important;
  line-height: 150% !important;
  background-color: transparent;
- color: #f8f8f2;
+ color: #D8DEE9;
  border-top-right-radius: 0px;
  border-top-left-radius: 0px;
  margin-left: 0px;
@@ -1701,7 +1703,7 @@ div.output_area pre {
  font-family: monospace, monospace;
  font-size: 9pt !important;
  line-height: 151% !important;
- color: #f8f8f2;
+ color: #D8DEE9;
  border-top-right-radius: 0px;
  border-top-left-radius: 0px;
 }
@@ -1711,7 +1713,7 @@ div.output_area {
 div.output_html {
  font-family: monospace, monospace;
  font-size: 9pt;
- color: #dbdfef;
+ color: #D8DEE9;
  background-color: transparent;
 }
 div.output_subarea {
@@ -1811,7 +1813,7 @@ div.text_cell_render {
  font-family: sans-serif;
  font-size: 11pt;
  line-height: 130% !important;
- color: #f8f8f2;
+ color: #D8DEE9;
  background-color: transparent; /* Markdown cell color */
  border-radius: 0px;
 }
@@ -1917,7 +1919,7 @@ div.rendered_html code {
  font-size: 11pt;
  padding-top: 3px;
  padding-left: 2px;
- color: #f8f8f2;
+ color: #D8DEE9;
  background: #262c36;
  background-color: #262c36;
 }
@@ -1932,7 +1934,7 @@ code {
  font-family: monospace, monospace;
  font-size: 10pt !important;
  line-height: 170% !important;
- color: #f8f8f2;
+ color: #D8DEE9;
  background: #262c36;
  background-color: #262c36;
  border-color: #262c36;
@@ -1941,7 +1943,7 @@ kbd {
  padding: 1px;
  font-size: 10pt;
  font-weight: 800;
- color: #f8f8f2;
+ color: #D8DEE9;
  background-color: transparent !important;
  border: 0;
  box-shadow: none;
@@ -1952,13 +1954,13 @@ pre {
  margin: 0 0 9px;
  font-size: 10.0pt;
  line-height: 1.42857143;
- color: #f8f8f2;
+ color: #D8DEE9;
  background-color: #262c36;
  border: 1px solid #262c36;
  border-radius: 2px;
 }
 div.rendered_html {
- color: #f8f8f2; /* Markdown content below Heading */
+ color: #D8DEE9; /* Markdown content below Heading */
 }
 .rendered_html * + ul {
  margin-top: 0.5em;
@@ -1972,7 +1974,7 @@ div.rendered_html pre {
  font-family: monospace, monospace;
  font-size: 10pt !important;
  line-height: 170% !important;
- color: #f8f8f2 !important;
+ color: #D8DEE9 !important;
  background: #262c36;
  background-color: #262c36;
  max-width: 80%;
@@ -1988,7 +1990,7 @@ div.text_cell_render code {
  font-family: monospace, monospace;
  font-size: 10pt !important;
  line-height: 170% !important;
- color: #f8f8f2;
+ color: #D8DEE9;
  background: #100e0b;
  background-color: #100e0b;
  max-width: 80%;
@@ -2477,9 +2479,9 @@ label#Keyword-Filter {
  border-color: #2a313c;
 }
 .ui-widget-content {
- background: #303542;
- background-color: #303542;
- border: 2px solid #303542;
+ background: #2E3440 ;
+ background-color: #2E3440 ;
+ border: 2px solid #2E3440 ;
  color: #899ab8;
 }
 div.collapsible_headings_toggle {
@@ -3174,7 +3176,7 @@ div.cell.text_cell .cm-s-default span.cm-variable-3 {
  color: #6272a4 !important;
 }
 .cm-s-default .cm-tag {
- color: #8fb36a;
+ color: #50fa7b;
 }
 .cm-s-default .cm-builtin {
  color: #8be9fd;
@@ -3285,4 +3287,3 @@ span.save_widget span.filename:hover {
         }
     });
 </script>
-
