@@ -1,7 +1,3 @@
-/*This file contains any manual css for this page that needs to override the global styles.
-This is only required when different pages style the same element differently. This is just
-a hack to deal with our current css styles and no new styling should be added in this file.*/
-
 div#notebook {
  font-family: sans-serif;
  font-size: 10pt;
@@ -17,13 +13,15 @@ div.body {
  /* Changes the text color of top messages in HOME screen */
  color: #ff79c6;
  /* Changes the color of the HOME background */
+ background-color: #282a36;
  background: #282a36;
  -webkit-font-smoothing: antialiased !important;
 }
 body.notebook_app {
  padding: 0;
- background: #282a36;
+ background-color: #282a36;
  /*The line above changes the bottom background of jupyter */
+ background: #282a36;
  padding-right: 0px !important;
  overflow-y: hidden;
 }
@@ -211,10 +209,10 @@ span#login_widget > .button,
 }
 span#login_widget > .button:hover,
 #logout:hover {
- color: #88C0D0;
+ color: #ff5555;
  background-color: transparent;
  background: transparent;
- border: 2px solid #8be9fd;
+ border: 2px solid #ff5555;
  background-image: none;
  box-shadow: none !important;
  border-radius: 3px;
@@ -504,6 +502,7 @@ div#header-container {
 #header .header-bar,
 .edit_app #header .header-bar {
  background-color: transparent;
+ background: transparent;
 }
 body > #header .header-bar {
  width: 100%;
@@ -607,6 +606,7 @@ div#notification_notebook.notification_widget.btn.btn-xs.navbar-btn {
  z-index: -500;
  font-size: 9pt;
  background: transparent;
+ background-color: transparent;
  margin-right: 3px;
  border: none;
 }
@@ -690,14 +690,15 @@ div#notification_notebook.notification_widget.btn.btn-xs.navbar-btn {
 #modal_indicator {
  float: right !important;
  color: #4c8be2;
- background: #100e0b;
- background-color: #100e0b;
+ background: #282a36;
+ background-color: #282a36;
  margin-top: 8px !important;
  margin-left: 0px;
 }
 #kernel_indicator {
  float: right !important;
  color: #bd93f9;
+ background: transparent;
  background-color: transparent; /* backround of  kernel indicator background */
  border-left: 4px solid #bd93f9;
  padding-top: 0px;
@@ -781,8 +782,8 @@ div#notification_notebook.notification_widget.btn.btn-xs.navbar-btn,
 div#notification_notebook.notification_widget.btn.btn-xs.navbar-btn:hover,
 div#notification_notebook.notification_widget.btn.btn-xs.navbar-btn:focus {
  color: #899ab8;
- background-color: #100e0b;
- border-color: #100e0b;
+ background-color: #282a36;
+ border-color: #282a36;
 }
 #notification_area,
 div.notification_area {
@@ -825,8 +826,8 @@ i.fa.fa-icon {
  padding: 0px;
  text-align: left;
  border: none;
- background-color: transparent;
- background: transparent;
+ background-color: #2E3440;
+ background: #2E3440;
  line-height: 1;
 }
 .dropdown-menu:hover {
@@ -845,16 +846,19 @@ i.fa.fa-icon {
  font-size: 10.0pt;
  display: block;
  padding: 10px 20px 9px 10px;
- color: #899ab8;
- background-color: #1a1c1e;
- background: #1a1c1e;
+ color: #BDCDD6;
+ /* Backround of the File-Edit-View menu when pressed */
+ background-color: #2E3440;
+ background: #2E3440;
 }
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
     /* colors when pressing the File-Edit-View menu */
- color:  #f8f8f2;
- background-color: #282a36;
- border-color: #8be9fd;
+ color: #bbc2e0;
+ /* Purples */
+ background-color: #434c5e;
+ background: #434c5e;
+ border-color: #434c5e;
  transition: 200ms ease;
 }
 .dropdown-menu .divider {
@@ -880,7 +884,7 @@ i.fa.fa-icon {
  font-weight: normal;
  color:  #282a36;
  padding: none;
- background: transparent;
+
  display: block;
  clear: both;
  white-space: nowrap;
@@ -895,7 +899,7 @@ i.fa.fa-icon {
 .dropdown-submenu:active > a:after,
 .dropdown-submenu:focus > a:after,
 .dropdown-submenu:visited > a:after {
- color: #ffb86c;
+ color: #bd93f9;
  margin-right: -16px;
  display: inline-block !important;
 }
@@ -923,6 +927,7 @@ div.kse-dropdown > .dropdown-menu,
 .btn-default:hover,
 .open > .dropdown-toggle.btn-default:hover,
 .open > .dropdown-toggle.btn:hover {
+     /* hover on the save-plus-cut-paste menu */
  color: #bd93f9;
  border: 2px solid #2a2e39;
  background-color: #2a2e39;
@@ -1094,7 +1099,7 @@ div.dynamic-buttons > button,
  vertical-align: bottom;
  margin-left: -.5ex;
  display: inline-table;
- border: solid 0px #2E3440 ;
+ border: solid 0px #2E3440;
  margin-bottom: -1ex;
 }
 .alternate_upload .btn-upload {
@@ -1216,8 +1221,8 @@ a.btn.btn-default.input-group-addon:hover {
 }
 .input-group-btn:first-child > .btn,
 .input-group-btn:first-child > .btn-group {
- background: #100e0b;
- background-color: #100e0b;
+ background: #282a36;
+ background-color: #282a36;
  border: none;
  margin-left: 2px;
  margin-right: -1px;
@@ -1232,8 +1237,8 @@ a.btn.btn-default.input-group-addon:hover {
  transition: 200ms ease;
 }
 div.modal .btn-group > .btn:first-child {
- background: #100e0b;
- background-color: #100e0b;
+ background: #282a36;
+ background-color: #282a36;
  border: 1px solid #262833;
  margin-top: 0px !important;
  margin-left: 0px;
@@ -1262,8 +1267,8 @@ div.modal-footer > button:hover {
  font-family: sans-serif;
  font-size: 10.0pt;
  position: relative;
- background: #100e0b;
- background-color: #100e0b;
+ background: #282a36;
+ background-color: #282a36;
  border: none;
  border-radius: 1px;
  background-clip: padding-box;
@@ -1273,8 +1278,8 @@ div.modal-footer > button:hover {
  font-family: sans-serif;
  font-size: 11pt;
  color: #899ab8;
- background: #100e0b;
- background-color: #100e0b;
+ background: #282a36;
+ background-color: #282a36;
  border-color: rgba(80,92,133,.22);
  padding: 12px;
  min-height: 16.4286px;
@@ -1326,8 +1331,8 @@ div.panel > .panel-heading,
 div.panel-default > .panel-heading {
  font-size: 14pt;
  color: #899ab8;
- background: #100e0b;
- background-color: #100e0b;
+ background: #282a36;
+ background-color: #282a36;
  border: 0;
 }
 .modal .modal-dialog {
@@ -1487,19 +1492,22 @@ div.input_area {
 }
 div.cell {
  padding: 5px;
+ background: transparent;
  background-color: transparent; /* Left border of input cell */
  border: solid transparent; /* Entire cell border */
  border-radius: 0px;
  top: 0;
 }
 div.cell.selected {
- background: transparent ;
+ background: transparent;
+ background-color: transparent;
  border: solid #8be9fd;
  padding: 5px;
  border-radius: 2px;
 }
 .edit_mode div.cell.selected {
  padding: 5px;
+ background: transparent;
  background-color: transparent;
  border: solid #ff5555; /* Entire cell edit mode border */
  border-radius: 2px;
@@ -1507,6 +1515,7 @@ div.cell.selected {
 div.cell.edit_mode {
  padding: 5px;
  background: transparent;
+ background-color: transparent;
 }
 div.CodeMirror-sizer {
  margin-left: 10px;
@@ -1542,6 +1551,8 @@ div.cell.text_cell.selected.jupyter-soft-selected:before {
 div.cell.code_cell .input {
  border-left: 5px solid transparent !important; /* Left bar at de-selected cell */
  border-radius: 3px;
+
+
 }
 div.cell.code_cell.selected .input {
  border-left: 5px solid #8be9fd !important; /* Left bar at selected cell */
@@ -1567,11 +1578,11 @@ div.cell.selected.jupyter-soft-selected {
  border-radius: 6px !important;
 }
 div.cell.selected.jupyter-soft-selected .input {
- border-left: 5px solid #100e0b !important;
+ border-left: 5px solid #282a36 !important;
 }
 div.cell.selected.jupyter-soft-selected {
  border-left-color: #ff79c6;
- border-color: #100e0b;
+ border-color: #282a36;
  padding-left: 7px;
  border-radius: 6px;
 }
@@ -1581,7 +1592,8 @@ div.cell.code_cell.selected .input {
 }
 div.cell.selected.jupyter-soft-selected .prompt,
 div.cell.text_cell.selected.jupyter-soft-selected .prompt {
- border-left: #100e0b !important;
+
+ border-left: #282a36 !important;
  border-radius: 2px;
 }
 div.cell.text_cell.selected.jupyter-soft-selected .input_prompt {
@@ -1657,10 +1669,12 @@ div.code_cell:hover div.input .run_this_cell {
 }
 div.cell.code_cell.rendered.selected .run_this_cell:hover {
  background-color: transparent;
+
  color: #50fa7b !important;
 }
 div.cell.code_cell.rendered.unselected .run_this_cell:hover {
  background-color: transparent;
+
  color: #50fa7b !important;
 }
 i.fa-step-forward.fa {
@@ -1715,6 +1729,7 @@ div.output_html {
  font-size: 9pt;
  color: #D8DEE9;
  background-color: transparent;
+
 }
 div.output_subarea {
  overflow-x: auto;
@@ -1725,11 +1740,13 @@ div.output_subarea {
  flex: 1;
 }
 div.btn.btn-default.output_collapsed {
+
  background-color: transparent;
  border-color: #1d1f27;
 }
 div.btn.btn-default.output_collapsed:hover {
-background-color: transparent;
+
+ background-color: transparent;
  border-color: #191a21;
 }
 div.prompt.output_prompt {
@@ -1754,10 +1771,9 @@ div.prompt.output_prompt {
 }
 div.out_prompt_overlay.prompt {
  font-family: monospace, monospace;
- font-weight: bold !important;
-font-size: 9pt !important;
+ font-size: 9pt !important;
  font-weight: normal !important;
- /*background-color: #100e0b;*/
+ /*background-color: #282a36;*/
  color: #ff5555;
  line-height: 170%;
  padding:   0px;
@@ -1814,6 +1830,7 @@ div.text_cell_render {
  font-size: 11pt;
  line-height: 130% !important;
  color: #D8DEE9;
+
  background-color: transparent; /* Markdown cell color */
  border-radius: 0px;
 }
@@ -1831,6 +1848,7 @@ div.cell.text_cell .CodeMirror-lines {
 div.cell.text_cell.unrendered div.input_area,
 div.cell.text_cell.rendered div.input_area {
  background-color: transparent;
+
  border: 0px;
  border-radius: 2px;
 }
@@ -1841,24 +1859,28 @@ div.cell.text_cell .CodeMirror pre {
 div.cell.text_cell.rendered.selected {
  font-family: sans-serif;
  line-height: 170% !important;
+
  background-color: transparent;
  border-radius: 0px;
 }
 div.cell.text_cell.unrendered.selected {
  font-family: sans-serif;
  line-height: 170% !important;
+
  background-color: transparent;
  border-radius: 0px;
 }
 div.cell.text_cell.selected {
  font-family: sans-serif;
  line-height: 170% !important;
+
  background-color: transparent;
  border-radius: 0px;
 }
 .edit_mode div.cell.text_cell.selected {
  font-family: sans-serif;
  line-height: 170% !important;
+
  background-color: transparent;
  border-radius: 0px;
 }
@@ -1867,6 +1889,7 @@ div.text_cell.unrendered.selected,
 div.edit_mode div.text_cell.unrendered {
  font-family: sans-serif;
  line-height: 170% !important;
+
  background-color: transparent;
  border-radius: 0px;
 }
@@ -1991,8 +2014,8 @@ div.text_cell_render code {
  font-size: 10pt !important;
  line-height: 170% !important;
  color: #D8DEE9;
- background: #100e0b;
- background-color: #100e0b;
+ background: #282a36;
+ background-color: #282a36;
  max-width: 80%;
  border-radius: 0px;
  border-left: none;
@@ -2137,8 +2160,8 @@ div#_vivaldi-spatnav-focus-indicator._vivaldi-spatnav-focus-indicator {
  margin-top: .05em;
 }
 div.widget-area {
- background-color: #100e0b;
- background: #100e0b;
+ background-color: #282a36;
+ background: #282a36;
  color: #f8f8f2;
 }
 div.widget-area a {
@@ -2399,14 +2422,14 @@ a.text-warning:hover {
  color: #8be9fd;
 }
 a.text-warning.bg-warning {
- background-color: #100e0b;
+ background-color: #282a36;
 }
 span.bg-success.text-success {
  background-color: transparent;
  color: #ffb86c;
 }
 span.bg-danger.text-danger {
- background-color: #100e0b;
+ background-color: #282a36;
  color: #dc6972;
 }
 .has-success .input-group-addon {
@@ -2543,7 +2566,7 @@ div.collapsible_headings_toggle .fa-caret-right:before {
  border-style: solid;
  border-width: thin;
  border-right-width: medium !important;
- background-color: #100e0b !important;
+ background-color: #282a36 !important;
 }
 #toc-wrapper.ui-draggable.ui-resizable.sidebar-wrapper {
  border-color: rgba(80,92,133,.22) !important;
@@ -2594,6 +2617,7 @@ video {
 }
 .cmd-palette form {
  background: #000000;
+
 }
 .typeahead-field input:last-child,
 .typeahead-hint {
@@ -2782,8 +2806,8 @@ div#short-key-bindings-intro.well,
  box-shadow: none;
 }
 #texteditor-backdrop {
- background: #100e0b;
- background-color: #100e0b;
+ background: #282a36;
+ background-color: #282a36;
 }
 #texteditor-backdrop #texteditor-container .CodeMirror-gutter,
 #texteditor-backdrop #texteditor-container .CodeMirror-gutters {
@@ -2800,10 +2824,10 @@ div#short-key-bindings-intro.well,
  box-shadow: none;
 }
 .terminal-app {
- background: #100e0b;
+ background: #282a36;
 }
 .terminal-app > #header {
- background: #100e0b;
+ background: #282a36;
 }
 .terminal-app .terminal {
  font-family: monospace, monospace;
@@ -2879,7 +2903,7 @@ div#short-key-bindings-intro.well,
 .tags-input input,
 .tags-input button {
  color: #899ab8;
- background-color: #100e0b;
+ background-color: #282a36;
  background-image: none;
  border: 1px solid #899ab8;
  border-radius: 1px;
@@ -2893,7 +2917,7 @@ div#short-key-bindings-intro.well,
 #notebook-container > div.input > div.inner_cell > div.ctb_hideshow.ctb_show > div > div > button {
  font-size: 10pt;
  color: #899ab8;
- background-color: #100e0b;
+ background-color: #282a36;
  background-image: none;
  border: 1px solid #899ab8;
  border-radius: 1px;
@@ -2904,8 +2928,8 @@ div#short-key-bindings-intro.well,
  line-height: 22px;
 }
 div#pager #pager-contents {
- background: #100e0b !important;
- background-color: #100e0b !important;
+ background: #282a36 !important;
+ background-color: #282a36 !important;
 }
 div#pager pre {
  color: #f8f8f2 !important;
