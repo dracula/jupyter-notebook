@@ -2,7 +2,7 @@
 
 > A dark theme for Jupyter Notebook.
 
-![Screenshot](./screenshot-jupyter.png)
+![Screenshot](./screenshot.png)
 
 ## Install
 
