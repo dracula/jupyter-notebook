@@ -6,7 +6,7 @@
 
 ## Install
 
-All instructions can be found at [draculatheme.com/foobar](https://draculatheme.com/jupyter-notebook).
+All instructions can be found at [draculatheme.com/jupyter-notebook](https://draculatheme.com/jupyter-notebook).
 
 ## Team
 
