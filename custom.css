@@ -1,3 +1,8 @@
+/* 
+This is a simple css file for jupyter notebook following the Dracula color palette.
+If you find a bug or a problem and want to improve the theme, feel free to modify it.
+*/
+
 div#notebook {
  font-family: sans-serif;
  font-size: 10pt;
@@ -20,7 +25,7 @@ div.body {
 body.notebook_app {
  padding: 0;
  background-color: #282a36;
- /*The line above changes the bottom background of jupyter */
+ /*The line above changes the total background of jupyter */
  background: #282a36;
  padding-right: 0px !important;
  overflow-y: hidden;
@@ -125,7 +130,7 @@ div.running_list_info.toolbar_info {
 }
 #project_name > ul > li > a > i.fa.fa-home {
  color: #ffb86c;
- font-size: 10pt; /* ????? */
+ font-size: 10pt;
  display: inline-block;
  position: static;
  padding: 0px 0px;
