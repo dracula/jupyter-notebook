@@ -13,8 +13,8 @@ All instructions can be found at [draculatheme.com/jupyter-notebook](https://dra
 This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/foobar/graphs/contributors).
 
 | [![Zeno Rocha](https://github.com/lex-andr.png?size=100)](https://github.com/lex-andr) |
-| ---------------------------------------------------------------------------------------- |
-| [ALexis Andrés](https://github.com/lex-andr)                                               |
+| -------------------------------------------------------------------------------------- |
+| [ALexis Andrés](https://github.com/lex-andr)                                           |
 
 ## Community
 
